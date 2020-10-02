@@ -3,7 +3,7 @@
 from setuptools import setup
 
 def readme():
-    '''pull iin the readme file for the long description'''
+    '''pull in the readme file for the long description'''
     with open('README.md') as rfile:
         return rfile.read()
 
